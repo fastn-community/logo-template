@@ -1,0 +1,28 @@
+
+-- record logos:
+ftd.image-src logo:
+string link:
+
+-- logos list list-of-logos:
+
+-- logos: 
+logo: $assets.files.images.logo-1.svg
+link: landing/
+
+-- logos: 
+logo: $assets.files.images.logo-2.svg
+link: landing/
+
+-- logos: 
+logo: $assets.files.images.logo-3.svg
+link: landing/
+
+-- logos: 
+logo: $assets.files.images.logo-4.svg
+link: landing/
+
+-- logos: 
+logo: $assets.files.images.logo-5.svg
+link: landing/
+
+-- end: list-of-logos
