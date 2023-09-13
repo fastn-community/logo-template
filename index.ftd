@@ -1,5 +1,7 @@
 -- import: fastn-community.github.io/logo-doc/docs
--- import: __user_name__.github.io/__repo_name__/data
+-- import: fastn-community.github.io/logo-doc/data
+export: logos
+
 -- import: __user_name__.github.io/__repo_name__
 
 
@@ -13,7 +15,6 @@ package-name: __repo_name__
 package-full-name: __user_name__.github.io/__repo_name__
 github: https://github.com/__user_name__/__repo_name__
 category: __user_name__.github.io/__repo_name__
-preview-url: preview/
 license-url: NULL
 ;; license-url: https://github.com/__user_name__/__repo_name__/blob/main/LICENSE
 
@@ -34,7 +35,7 @@ optional string company-name:
 optional ftd.image-src company-logo:
 
 ;; =============================================================================
-;; =====================<IMPLEMENT THE logo quote-block HERE>=========================
+;; ==================<IMPLEMENT THE LOGO QUOTE BLOCK HERE>======================
 ;; =============================================================================
 
 -- ftd.text: Implement the **logo quote-block** component here
@@ -66,7 +67,7 @@ optional string company-name:
 optional ftd.image-src company-logo:
 
 ;; =============================================================================
-;; =====================<IMPLEMENT THE logo quote-divider HERE>=========================
+;; ================<IMPLEMENT THE LOGO QUOTE DIVIDER HERE>======================
 ;; =============================================================================
 
 -- ftd.text: Implement the **logo quote-divider** component here
@@ -98,8 +99,6 @@ padding-vertical.px: 32
 
 
 
-
-
 -- component large-title:
 optional caption title:
 optional body subtitle:
@@ -109,7 +108,7 @@ optional string company-name:
 optional ftd.image-src company-logo:
 
 ;; =============================================================================
-;; =====================<IMPLEMENT THE logo large-title HERE>=========================
+;; ==================<IMPLEMENT THE LOGO LARGE TITLE HERE>======================
 ;; =============================================================================
 
 -- ftd.text: Implement the **logo large-title** component here
@@ -167,7 +166,7 @@ optional string company-name:
 optional ftd.image-src company-logo:
 
 ;; =============================================================================
-;; =====================<IMPLEMENT THE logo without-title HERE>=========================
+;; =====================<IMPLEMENT THE logo without-title HERE>=================
 ;; =============================================================================
 
 -- ftd.text: Implement the **logo without-title** component here
@@ -184,5 +183,3 @@ padding-vertical.px: 32
 ;; =============================================================================
 
 -- end: without-title
-
-
